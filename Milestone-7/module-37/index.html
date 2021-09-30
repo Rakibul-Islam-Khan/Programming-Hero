@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <style>
+        .main {
+            width: 50%;
+            margin: 10rem auto;
+        }
+
+        .mid {
+            margin: 0 auto;
+            width: 50%;
+            padding: 3rem 3rem;
+            color: white;
+            background-color: purple;
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+        .row-1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.25rem;
+            font-family: sans;
+        }
+        .row-1 > span{
+            margin: 0 28px;
+        }
+        .row-2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.25rem;
+            font-family: monospace;
+            margin-top: 1.5rem;
+        }
+
+        .row-2>span {
+            margin: 0 35px;
+        }
+
+        .row-3 {
+            margin-top: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.25rem;
+            font-family: sans;
+        }
+
+        .row-3>button {
+            color: white;
+            background-color: cadetblue;
+            border: 2px solid white;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 8px 24px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body style="background-color: aquamarine;">
+    <section>
+        <div class="main">
+            <div class="mid">
+                <div class="row-1">
+                    <span>Min</span>
+                    <span>Sec</span>
+                    <span>Mil</span>
+                </div>
+                <div class="row-2">
+                    <span id="min">00</span>
+                    <span id="sec">00</span>
+                    <span id="mil">00</span>
+                </div>
+                <div class="row-3">
+                    <button id="start">Start</button>
+                    <button id="stop">Stop</button>
+                    <button id="reset">Reset</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/stopwatch.js"></script>
+</body>
+
+</html>

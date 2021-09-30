@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visibility hidden vs display none</title>
+    <style>
+        .k {
+            height: 100px;
+            width: 100px;
+        }
+
+        .div1 {
+            background-color: lightcoral;
+            display: none;
+            /*kon jaiga nai abong lukano o nai*/
+        }
+
+        .div2 {
+            background-color: lightseagreen;
+        }
+
+        .div3 {
+            background-color: lightgreen;
+            visibility: hidden;
+            /*jaiga ache kintu lukhano ache element*/
+        }
+
+        .div4 {
+            background-color: lightslategrey;
+        }
+
+        .over {
+            height: 300px;
+            width: 300px;
+            border: 2px solid green;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+
+        .elip {
+            width: 100px;
+            border: 2px solid lightseagreen;
+
+        }
+
+        .elip p {
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="div1 k">link-1</div>
+    <div class="div2 k">link-2</div>
+    <div class="div3 k">link-3</div>
+    <div class="div4 k">link-4</div>
+
+    <div class="over">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ad quibusdam delectus possimus ullam rem
+            soluta, doloribus, accusantium modi quia quasi rerum eveniet at eum saepe expedita voluptas voluptatum
+            numquam neque et ipsa natus non. Nobis iusto eligendi tempore, deserunt illo sunt recusandae quam, vero
+            voluptatem quibusdam laudantium aperiam veritatis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Nesciunt facere eligendi reprehenderit distinctio ut magni aperiam ducimus optio mollitia, ea explicabo
+            voluptates blanditiis recusandae voluptatibus consectetur dolor maiores eius, quisquam quasi veniam
+            obcaecati ipsa. Culpa quo atque unde expedita fuga molestias porro eaque inventore maiores, alias nam minus
+            adipisci ab non et, corrupti ducimus ipsam aut excepturi. Non perferendis impedit qui praesentium cum
+            quaerat expedita officia voluptatibus nesciunt. Aspernatur laudantium blanditiis, earum sequi obcaecati
+            praesentium dolore explicabo quos labore minima quod velit est natus iste omnis, expedita ipsa. Aspernatur
+            minus eaque excepturi eius nisi eligendi saepe rem consequuntur amet cum.</p>
+    </div>
+
+    <!-- text ellipsis -->
+    <div class="elip">
+        <p title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, doloremque?">Lorem ipsum dolor
+            sit
+            amet, consectetur adipisicing elit. Quod, doloremque?</p>
+    </div>
+</body>
+
+</html>

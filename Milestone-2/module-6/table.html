@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            /* width: 40%; */
+            text-align: center;
+        }
+
+        td,
+        th {
+            border: 1px solid gray;
+            padding: 0px 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="navbar.html">link-1</a></li>
+                <li><a href="table.html">link-2</a></li>
+                <li><a href="semantic.html">link-3</a></li>
+                <li><a href="input.html">link-4
+                        <ul class="dropdown">
+                            <li><a href="">link-1</a></li>
+                            <li><a href="">link-2</a></li>
+                            <li><a href="">link-3</a></li>
+                        </ul>
+                    </a></li>
+                <li><a href="media.html">link-5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <caption>USA Billionaire List</caption>
+        <thead>
+            <tr>
+                <th>NO.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder Microsoft</td>
+                <td>$1500</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder Apple</td>
+                <td>$1200</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Founder Google</td>
+                <td>$1300</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckerberg</td>
+                <td>Founder Facebook</td>
+                <td>$1400</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Jack Dorsey</td>
+                <td>Founder Twitter</td>
+                <td>$1000</td>
+                <td>USA</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Copyright © 2005-2021 Today News All Rights Reserved </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

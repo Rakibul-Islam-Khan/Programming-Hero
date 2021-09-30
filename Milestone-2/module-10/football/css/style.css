@@ -1,0 +1,430 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Common Style */
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*------------
+header section
+--------------*/
+.container-section {
+    background: #2D25A0;
+    height: 101px;
+    width: 100%;
+}
+
+.menu-section {
+    width: 1164px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+}
+
+.menu-section-list {
+    display: flex;
+}
+
+.menu-section-list li {
+    margin-right: 36px;
+}
+
+.menu-section-list li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login-button button {
+    background-color: #E02C6D;
+    border: none;
+    padding: 10px 24px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.live-button:hover .fas {
+    transform: translateX(12px);
+
+}
+
+.fa-arrow-right {
+    margin-right: 8px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.toggle,
+#toggle {
+    display: none;
+}
+
+/*--------
+Banner Section
+----------*/
+#banner-section {
+    background: #2D25A0;
+    height: 677px;
+}
+
+.copa-banner {
+    width: 1164px;
+    height: 570px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copa-banner-text {
+    margin-top: 52px;
+}
+
+.copa-banner-text h2 {
+    font-size: 64px;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 700;
+    color: white;
+
+}
+
+.live-button button {
+    background-color: #E02C6D;
+    height: 44px;
+    border: none;
+    padding: 10px 24px;
+    color: white;
+    font-size: 16px;
+    margin-top: 27px;
+    cursor: pointer;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 500;
+}
+
+.copa-banner-text a i {
+    margin-left: 10px;
+}
+
+.copa-banner-img {
+    height: 438px;
+    width: 556px;
+}
+
+.copa-banner-img img {
+    width: 100%;
+    height: auto;
+}
+
+/*-------------
+ Palyers Setion
+----------------*/
+.palyers {
+    width: 1050px;
+    margin: auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    box-sizing: border-box;
+}
+
+.player {
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-bottom: 27px;
+    box-sizing: border-box;
+}
+
+.player-img {
+    width: 300px;
+    height: 256px;
+    overflow: hidden;
+}
+
+.player-img:hover img {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.player img {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease-in-out;
+}
+
+.player-info {
+    width: 300px;
+    height: 154px;
+    margin-top: 16px;
+}
+
+.player-info h2 {
+    margin-top: 10px;
+    font-size: 28px;
+}
+
+.player-info p {
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+/* highlights-section */
+.highlights-section {
+    width: 1164px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.highlights-item {
+    width: 410px;
+    height: 500px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.highlights-item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.highlights-item-text p {
+    color: #6C6C6C;
+}
+
+/* Contact Section */
+.contact-section {
+    width: 1164px;
+    height: 510px;
+    margin: auto;
+}
+
+.contact {
+    width: 450px;
+    margin: auto;
+
+}
+
+.contact h1 {
+    font-size: 42px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.contact label {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.contact-text,
+.contact-email,
+.contact-message {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid #8080806b;
+    outline: none;
+}
+
+.contact-text:focus,
+.contact-email:focus,
+.contact-message:focus {
+    border: 2px solid black;
+}
+
+.form-submit {
+    text-align: center;
+}
+
+.form-submit button {
+    background-color: #E02C6D;
+    height: 44px;
+    border: none;
+    padding: 10px 24px;
+    color: white;
+    font-size: 16px;
+    margin-top: 27px;
+    cursor: pointer;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 500;
+}
+
+/* footer */
+.footer {
+    margin: auto;
+    width: 484px;
+    height: 213px;
+    padding-bottom: 63px;
+    margin-top: 40px;
+}
+
+.footer-img {
+    width: 100%;
+    height: 110px;
+}
+
+.footer-icon,
+.footer-copy {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.footer-icon a {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    font-size: 18px;
+    color: #969BAB;
+}
+
+/* media queries */
+
+/* Mobile Device */
+@media only screen and (max-width:767px) {
+    .menu-section {
+        background: crimson;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .menu-section-list{
+        text-align: center;
+        display: none;
+    }
+    .menu-item{
+        margin: 30px auto;
+    }
+    #toggle:checked + .menu-section-list{
+        display: block;
+    }
+    .login-button{
+        text-align: center;
+    }
+    #banner-section {
+        height: auto;
+    }
+
+    .toggle {
+        color: white;
+        font-size: 24px;
+        margin-left: 18px;
+        cursor: pointer;
+        display: block;
+    }
+
+    .login-button button {
+        margin-right: 18px;
+    }
+
+    .copa-banner {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .copa-banner-text {
+        margin-left: 20px;
+    }
+
+    .copa-banner-img {
+        margin-top: 50px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .palyers {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player {
+        margin: auto;
+        margin-bottom: 24px;
+    }
+
+    .highlights-section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .highlights-item {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-section,
+    .contact {
+        width: 100%;
+    }
+
+    .highlights-item .highlights-item-img {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        margin-top: 43px;
+    }
+
+    .footer-img {
+        height: auto;
+    }
+}
+
+/* Tab Device */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .menu-section {
+        width: 100%;
+    }
+
+    .copa-banner-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .copa-banner {
+        width: 100%;
+        height: 100%;
+    }
+
+    .palyers {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .highlights-section {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .highlights-item {
+        width: 100%;
+    }
+
+    .contact-section {
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+.header-nav{
+    background: #264653;
+}
+.feture-img {
+    filter: grayscale(100%);
+}
+
+.feture-hr {
+    margin: 0 auto;
+    width: 6%;
+    height: 2px !important;
+    background: #E76F51;
+}
+
+.newsletter {
+    background-image: url(../images/bike-5.jpg);
+    background-repeat: no-repeat;
+    background-position:100% 20%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.accordian-border{
+    border-top: 1px solid rgba(0, 0, 0, .125) !important;
+}
+.footer{
+    background-color: #0B0D17;
+}

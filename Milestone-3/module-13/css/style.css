@@ -1,0 +1,46 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero-section {
+    background-image: url("../images/BG.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 640px;
+    margin: 88px 0px;
+}
+
+.aware {
+    margin-top: 185px;
+}
+
+.alvio {
+    margin-top: 50px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    position: relative;
+}
+
+.one,
+.two,
+.three {
+    color: rgba(1, 153, 109, 0.2);
+}
+
+.head-1,
+.head-2,
+.head-3 {
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+}

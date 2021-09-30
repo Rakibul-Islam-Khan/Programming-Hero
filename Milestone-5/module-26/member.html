@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="w-3/4 mx-auto text-gray-600 body-font">
+        <div class="container px-5 pt-16 pb-4 ">
+            <div class="flex flex-col w-full mb-20 text-center">
+                <h1 class="text-2xl font-medium text-gray-900 sm:text-3xl title-font" id="head">Thank you for your login</h1>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/3">
+                    <div class="flex flex-col h-full p-8 bg-pink-500 rounded-lg shadow-xl">
+                        <div class="flex items-center justify-center mb-3">
+                            <h2 class="text-3xl font-medium text-white title-font">Deposit</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <h1 class="text-base text-4xl leading-relaxed text-center text-white">$<span
+                                    id="money-span">00</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                    <div class="flex flex-col h-full p-8 bg-blue-500 rounded-lg shadow-xl">
+                        <div class="flex items-center justify-center mb-3">
+                            <h2 class="text-lg text-3xl font-medium text-white title-font">Withdraw</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <h1 class="text-base text-4xl leading-relaxed text-center text-white">$<span
+                                    id="withdraw-span">00</span></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3">
+                    <div class="flex flex-col h-full p-8 bg-green-500 rounded-lg shadow-xl">
+                        <div class="flex items-center justify-center mb-3">
+                            <h2 class="text-lg text-3xl font-medium text-white title-font">Balance</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <h1 class="text-base text-4xl leading-relaxed text-center text-white">$<span id="balance-span">00</span></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="text-gray-600 body-font">
+            <div class="container flex flex-wrap px-5 pt-16 mx-auto">
+                    <div class="p-4 lg:w-1/2 md:w-full">
+                        <div class="flex flex-col p-8 bg-red-400 border-2 border-gray-200 border-opacity-50 rounded-lg sm:flex-row">
+                            <div class="flex-grow">
+                                <div class="relative mb-4">
+                                    <!-- <label class="text-sm leading-7 text-white">Email</label> -->
+                                    <input type="text" id="deposit-input"
+                                        class="w-full px-3 py-1 mb-2 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+                                        placeholder="Enter your deposit" required>
+                                </div>
+                                <button type="submit" id="deposit-button"
+                                    class="w-full px-6 py-2 mt-5 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600">Deposit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 lg:w-1/2 md:w-full ">
+                        <div class="flex flex-col p-8 bg-purple-400 border-2 border-gray-200 border-opacity-50 rounded-lg sm:flex-row">
+                            <div class="flex-grow ">
+                                <div class="relative mb-4">
+                                    <!-- <label class="text-sm leading-7 text-white">Email</label> -->
+                                    <input type="text" id="withdraw-input"
+                                        class="w-full px-3 py-1 mb-2 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200"
+                                        placeholder="Enter your withdraw" required>
+                                </div>
+                                <button type="submit" id="withdraw-button"
+                                    class="w-full px-6 py-2 mt-5 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600">Withdraw</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </section>
+    <script src="member.js"></script>
+</body>
+
+</html>

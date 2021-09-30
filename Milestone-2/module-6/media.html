@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="navbar.html">link-1</a></li>
+                    <li><a href="table.html">link-2</a></li>
+                    <li><a href="semantic.html">link-3</a></li>
+                    <li><a href="input.html">link-4
+                            <ul class="dropdown">
+                                <li><a href="">link-1</a></li>
+                                <li><a href="">link-2</a></li>
+                                <li><a href="">link-3</a></li>
+                            </ul>
+                        </a></li>
+                    <li><a href="media.html">link-5</a></li>
+                </ul>
+            </nav>
+        </header>
+    <!-- <audio src="media/audio/world_cup_2010.mp3" controls muted controlslist="nodownload" type="audio/mp3"></audio> -->
+    <audio controls loop muted controlslist="nodownload" preload="metadata" autoplay>
+        Theme song
+        <source src="media/audio/mp3_theme_song.mp3" type="audio/mp3">
+    </audio>
+    <!-- <video src="media/video/Hud - 22449.mp4" controls height="300px" controlslist="nodownload"></video> -->
+    <video controls height="300px" controlslist="nodownload" poster="images/61.jpg">
+        Video
+        <source src="media/video/Hud - 22449.mp4" type="video/mp4">
+    </video>
+    <iframe width="450" height="300" src="https://www.youtube.com/embed/1wkua9R_jew" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</body>
+
+</html>

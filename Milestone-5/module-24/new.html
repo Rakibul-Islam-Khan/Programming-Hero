@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <ul id="items-container">
+        <li>Lorem, ipsum.</li>
+        <li>Totam, aliquam?</li>
+        <li>Nihil, eos.</li>
+        <li>Laudantium, a?</li>
+        <li>Quo, ut!</li>
+    </ul>
+    <p><button>Add list item</button></p>
+    <script>
+        // method 01 
+        // const ul = document.getElementsByTagName("li");
+        // for (const li of ul) {
+        //     li.addEventListener('click', function (event) {
+        //         // document.getElementById("items-container").removeChild(li);
+        //         event.target.parentNode.removeChild(event.target);
+        //     })
+        // }
+        document.getElementsByTagName("button")[0].addEventListener('click', function () {
+            const liItem = document.createElement("li");
+            liItem.innerText = "Nihil, eos.";
+            // liItem.classList.add('li');
+            const parent = document.getElementById("items-container");
+            parent.appendChild(liItem);
+
+            // don't use this method
+            // for (const li of ul) {
+            //     li.addEventListener('click', function (event) {
+            //         // document.getElementById("items-container").removeChild(li);
+            //         event.target.parentNode.removeChild(event.target);
+            //     })
+            // }
+        })
+        // method 02
+        document.getElementById("items-container").addEventListener('click', function(event){
+            event.target.parentNode.removeChild(event.target);
+        })
+    </script>
+</body>
+
+</html>

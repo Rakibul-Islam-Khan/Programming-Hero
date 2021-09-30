@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+
+}
+html{
+    scroll-behavior: smooth;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+.container{
+    height: 600px;
+}
+.heading,
+.know,.bio,.work-list,.services-list,.blog-list {
+    display: flex;
+}
+.heading{
+    background: white;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px -2px 7px 0 #808080b3;
+}
+.know,.bio{
+    padding-top: 6%;
+}
+.logo {
+    width: 35%;
+    display: inline-block;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.logo img {
+    margin-right: 15%;
+}
+
+.menu {
+    width: 75%;
+}
+.menu ul li a{
+    color: #03a9f4;
+}
+.content,
+.pic {
+    width: 50%;
+}
+
+.content {
+    padding-left: 19%;
+}
+
+.content h1 {
+    color: #03a9f4;
+}
+
+.content p,.content_2 p {
+    text-align: justify;
+}
+
+.content a ,.content_2 a{
+    background: rgb(103, 58, 183);
+    background: linear-gradient(117deg, rgba(103, 58, 183, 1) 35%, rgba(0, 212, 255, 0.9251050762101716) 100%);
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 2%;
+    border-radius: 6px;
+}
+
+.pic img {
+    height: 80%;
+}
+
+.pic {
+    padding-left: 5%;
+}
+#Home{
+    background-image: url("images/Iron Man.png");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: 0% 65%;
+}
+.content_2{
+    padding: 0px 10% 0 0;
+
+}
+.work h1,.blog h1,.services h1{
+    text-align: center;
+}
+.work-1{
+    width: 30%;
+    margin-left: 3%;
+}
+.blog-item,.services-item{
+    width: 25%;
+    margin-left: 7%;
+}
+.blog-item-img{
+    height: 250px;
+}
+.blog-item img{
+    height: 100%;
+    width: 100%;
+}
+.blog-item-text,{
+    background: #f9faff;
+    height: 240px;
+    padding: 20px 30px;
+}
+.sm-1{
+    margin-left: 18%;
+}
+.services-item{
+    background: #f9faff;
+    
+}

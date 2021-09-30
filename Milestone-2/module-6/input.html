@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InputTag</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="navbar.html">link-1</a></li>
+                <li><a href="table.html">link-2</a></li>
+                <li><a href="semantic.html">link-3</a></li>
+                <li><a href="input.html">link-4
+                        <ul class="dropdown">
+                            <li><a href="">link-1</a></li>
+                            <li><a href="">link-2</a></li>
+                            <li><a href="">link-3</a></li>
+                        </ul>
+                    </a></li>
+                <li><a href="media.html">link-5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="">
+        <h1>Student Form</h1>
+        <p>Name: <input type="text" placeholder="Enter Your name" name="name" required> </p>
+        <p>Email: <input type="email" placeholder="Enter Your email" name="email" required> </p>
+        <p>Number: <input type="text" placeholder="Enter Your number" name="number"> </p>
+        <p>Password: <input type="password" placeholder="Enter Your password" name="password"> </p>
+        <fieldset>
+            <legend>Select your University</legend>
+            <p>
+                <label for="Dhaka">
+                    <input type="radio" name="University" id="Dhaka">Dhaka
+                </label>
+            </p>
+            <p>
+                <label for="Khulna">
+                    <input type="radio" name="University" id="Khulna">Khulna
+                </label>
+            </p>
+            <p>
+                <label for="Rajshahi">
+                    <input type="radio" name="University" id="Rajshahi">Rajshahi
+                </label>
+            </p>
+            <p>
+                <label for="Chittagong">
+                    <input type="radio" name="University" id="Chittagong">Chittagong
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select your Subject</legend>
+            <p>
+                <label for="Science">
+                    <input type="checkbox" name="Subject" id="Science">Science
+                </label>
+            </p>
+            <p>
+                <label for="Commerce">
+                    <input type="checkbox" name="Subject" id="Commerce">Commerce
+                </label>
+            </p>
+            <p>
+                <label for="Arts">
+                    <input type="checkbox" name="Subject" id="Arts">Arts
+                </label>
+            </p>
+
+        </fieldset>
+        <select name="city" id="">
+            <option value="">city-1</option>
+            <option value="">city-2</option>
+            <option value="">city-3</option>
+            <option value="">city-4</option>
+            <option value="">city-5</option>
+        </select>
+        <h2> Written About You</h2>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Write about you"></textarea><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>

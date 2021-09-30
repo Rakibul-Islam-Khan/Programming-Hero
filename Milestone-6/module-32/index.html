@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json</title>
+    <style>
+        .post {
+            background-color: crimson;
+            color: white;
+            width: 20%;
+            margin: 5px auto;
+            padding: 15px 30px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+
+        #post {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>hello json</h1>
+    <button onclick="user()">Load User</button>
+    <button onclick="comments()">Load Comments</button>
+    <button onclick="posts()">Load Posts</button>
+    <button onclick="album()">Load Album</button>
+    <button onclick="photos()">Load Photos</button>
+    <button onclick="todo()">Load ToDo</button>
+
+    <section id="post">
+
+    </section>
+    <ul id="user">
+
+    </ul>
+
+    <script src="js/api.js"></script>
+    <!-- <script src="js/json-convert.js"></script> -->
+</body>
+
+</html>

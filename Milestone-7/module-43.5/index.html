@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key play</title>
+</head>
+<body>
+    <video src="video/LG 4K DEMO HDR 2018 (60FPS) ELBA.mp4" controls id='video'></video>
+
+
+            
+<script type="text/javascript">
+    // const change = (event) =>{
+    //     if(event.key == 'f'){
+    //                 document.documentElement.requestFullscreen();
+    //     }
+    // }
+    $(document).on('keypress', function(e) {
+    if (e.which == 32) {
+    e.preventDefault()
+    console.log('space pressed')
+    }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pioneer bank</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="member.html">
+</head>
+
+<body style="background: rgb(238,174,202);background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);">
+    <section class="relative text-gray-600 body-font">
+        <div class="container flex px-5 py-24 mx-auto">
+            <div class="relative z-10 flex flex-col w-full p-8 bg-purple-400 rounded-lg shadow-xl lg:w-1/4 md:w-1/2 md:mx-auto md:mt-24">
+                <h2 class="mb-8 text-3xl text-center text-white font-lg title-font">Pioneer Bank</h2>
+                <form>
+                <div class="relative mb-4">
+                    <!-- <label class="text-sm leading-7 text-white">Email</label> -->
+                    <input type="email" id="email" class="w-full px-3 py-1 mb-2 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200" placeholder="Enter your email" required>
+                </div>
+                <div class="relative mb-4">
+                    <!-- <label  class="text-sm leading-7 text-white">Password</label> -->
+                    <input type="password" id="password" class="w-full px-3 py-1 text-base leading-8 text-gray-700 transition-colors duration-200 ease-in-out bg-white border border-gray-300 rounded outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" id="login-button" class="w-full px-6 py-2 mt-5 text-lg text-white bg-indigo-500 border-0 rounded focus:outline-none hover:bg-indigo-600">Login</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="bank.js"></script>
+</body>
+
+</html>
