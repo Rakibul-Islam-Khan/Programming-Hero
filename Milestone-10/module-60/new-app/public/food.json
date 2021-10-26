@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "title": "Bagel & cream cheese",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/SVCb8CG/breakfast1.png",
+        "price": 6.99
+    },
+    {
+        "id": 2,
+        "title": "Breakfast sandwich",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/5sLJvW9/breakfast2.png",
+        "price": 9.99
+    },
+    {
+        "id": 3,
+        "title": "Baked chiken",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/pW9bMcN/breakfast3.png",
+        "price": 10.99
+    },
+    {
+        "id": 4,
+        "title": "Eggs Benedict",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/dLSJstn/breakfast4.png",
+        "price": 8.99
+    },
+    {
+        "id": 5,
+        "title": "Toast Croissant Fried egg",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/8zrnXTY/breakfast5.png",
+        "price": 19.99
+    },
+    {
+        "id": 6,
+        "title": "Full breakfast fried  toast",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/1KW1ZfJ/breakfast6.png",
+        "price": 3.99
+    },
+    {
+        "id": 7,
+        "title": "Bagel & cream cheese",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/NWbW7zh/lunch1.png",
+        "price": 6.99
+    },
+    {
+        "id": 8,
+        "title": "Breakfast sandwich",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/9qtQntG/lunch2.png",
+        "price": 9.99
+    },
+    {
+        "id": 9,
+        "title": "Baked chiken",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/1sv2Gpk/lunch3.png",
+        "price": 10.99
+    },
+    {
+        "id": 10,
+        "title": "Eggs Benedict",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/J2s51XS/lunch4.png",
+        "price": 8.99
+    },
+    {
+        "id": 11,
+        "title": "Toast Croissant Fried egg",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/Scv6QvZ/lunch5.png",
+        "price": 19.99
+    },
+    {
+        "id": 12,
+        "title": "Full breakfast fried  toast",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/YNqRwfX/lunch6.png",
+        "price": 3.99
+    },
+    {
+        "id": 13,
+        "title": "Bagel & cream cheese",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/TBqw5Vk/dinner1.png",
+        "price": 6.99
+    },
+    {
+        "id": 14,
+        "title": "Breakfast sandwich",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/R2M7yBr/dinner2.png",
+        "price": 9.99
+    },
+    {
+        "id": 15,
+        "title": "Baked chiken",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/MPQjJtM/dinner3.png",
+        "price": 10.99
+    },
+    {
+        "id": 16,
+        "title": "Eggs Benedict",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/x3xvJjb/dinner4.png",
+        "price": 8.99
+    },
+    {
+        "id": 17,
+        "title": "Toast Croissant Fried egg",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/d2J9PwF/dinner5.png",
+        "price": 19.99
+    },
+    {
+        "id": 18,
+        "title": "Full breakfast fried  toast",
+        "short_description": "How we dream about our future",
+        "img": "https://i.ibb.co/HpzTFD3/dinner6.png",
+        "price": 3.99
+    }
+]

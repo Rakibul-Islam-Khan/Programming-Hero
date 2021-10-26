@@ -1,0 +1,14 @@
+.red-card{
+    cursor: pointer;
+    border: none !important;
+}
+.red-card:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: red !important;
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold !important;
+    border-radius: 20px;
+}

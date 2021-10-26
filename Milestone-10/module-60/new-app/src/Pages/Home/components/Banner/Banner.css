@@ -1,0 +1,28 @@
+.banner{
+    background-image: url("../../../../Images/bannerbackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+
+}
+.red-col{
+    margin-top: 250px;
+}
+.red-btn{
+    padding: 6px 25px;
+    border-radius: 20px !important;
+    margin-left: -35px;
+}
+.red-input{
+    border-radius: 20px;
+    width: 25%;
+    border:none;
+    outline: none;
+    padding: 8px 35px 8px 20px;
+}
+@media screen and (max-width:688px) {
+    .red-input{
+        width: 100%;
+    }
+}
