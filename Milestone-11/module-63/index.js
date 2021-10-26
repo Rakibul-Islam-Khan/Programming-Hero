@@ -5,6 +5,7 @@ const port = 1000
 
 
 app.use(cors())
+app.use(express.json())
 const posts = [
     {
       id: 0,
@@ -57,8 +58,11 @@ app.get('/posts', (req,res) =>{
     }
 })
 
-app.post('posts', (req,res) =>{
-    
+app.post('/posts', (req,res) =>{
+    const newTitle =req.body
+    newTitle.id = posts.length
+    posts.push(newTitle)
+    res.json(newTitle)
 })
 
 app.get('/posts/:id',(req,res) =>{
@@ -68,4 +72,11 @@ app.get('/posts/:id',(req,res) =>{
 
 })
 app.listen(port, () =>{
-    console.log(
+    // console.log("connect to the port",port)
+})
+
+
+
+
+
+
