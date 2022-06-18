@@ -11,7 +11,7 @@ roundup-store:https://roundup-store.netlify.app/
 
 macbook-pro:https://macbook-pro-js-app.netlify.app/
 
-##  <p>{
+<p>{
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.iconTheme": "material-icon-theme",
   "files.autoSave": "afterDelay",
